@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import  Image  from "next/image";
 import {Flex, Box, Text, Icon} from '@chakra-ui/react';
 import { BsFilter } from 'react-icons/bs';
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import SearchFilters from "../components/SearchFilters";
 import Property from '../components/Property';
 import noresult from '../assets/noresult.svg';
